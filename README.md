@@ -1,213 +1,70 @@
-# 🎬 Sufiyan FX - Video Editing Portfolio
+# Getting Started with Create React App
 
-> Professional video editing portfolio website with dark/cinematic design
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
-## 📦 What's Included
+In the project directory, you can run:
 
-This package contains everything you need to deploy your portfolio to Vercel or Netlify.
+### `npm start`
 
-### Files & Folders:
-```
-sufiyan-fx-portfolio/
-├── frontend/               # React application
-│   ├── src/
-│   │   ├── components/    # All React components
-│   │   ├── portfolio-content.js  # ⭐ EDIT THIS FILE
-│   │   └── ...
-│   ├── public/
-│   └── package.json
-├── vercel.json            # Vercel deployment config
-├── netlify.toml           # Netlify deployment config
-├── DEPLOYMENT_GUIDE.md    # Step-by-step deployment instructions
-├── CONTENT_CHECKLIST.md   # What to customize
-├── PORTFOLIO_README.md    # Full documentation
-├── QUICK_EDIT_GUIDE.js    # Quick reference
-├── .gitignore            # Git ignore rules
-└── README.md             # This file
-```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
----
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## 🚀 Quick Start (3 Steps)
+### `npm test`
 
-### Step 1: Customize Content
-```bash
-# Edit this file with your information:
-frontend/src/portfolio-content.js
-```
-See `CONTENT_CHECKLIST.md` for what to update.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Step 2: Test Locally (Optional)
-```bash
-cd frontend
-yarn install
-yarn start
-# Opens at http://localhost:3000
-```
+### `npm run build`
 
-### Step 3: Deploy
-Choose one:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-**Option A - Vercel (Recommended):**
-```bash
-cd frontend
-npx vercel
-```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-**Option B - Netlify:**
-```bash
-cd frontend
-yarn build
-# Drag & drop 'build' folder to netlify.com/drop
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-**Option C - GitHub + Vercel/Netlify:**
-1. Push to GitHub
-2. Connect repo on Vercel/Netlify
-3. Auto-deploy!
+### `npm run eject`
 
-📖 **Full Guide:** See `DEPLOYMENT_GUIDE.md`
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
----
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## ⚡ What You Need to Do
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-### Before Deployment:
-1. ✅ Edit `frontend/src/portfolio-content.js`
-   - Update name, email, social links
-   - Add your projects and videos
-   - Add testimonials
-   - Update about section
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-2. ✅ Test locally (optional but recommended)
+## Learn More
 
-3. ✅ Deploy to Vercel or Netlify
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### That's It! 🎉
+To learn React, check out the [React documentation](https://reactjs.org/).
 
----
+### Code Splitting
 
-## 📝 Key Files to Know
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-| File | Purpose |
-|------|---------|
-| `frontend/src/portfolio-content.js` | **Edit this** - All your content |
-| `DEPLOYMENT_GUIDE.md` | How to deploy step-by-step |
-| `CONTENT_CHECKLIST.md` | Checklist of what to customize |
-| `vercel.json` | Vercel configuration (don't edit) |
-| `netlify.toml` | Netlify configuration (don't edit) |
+### Analyzing the Bundle Size
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-## 🎨 Features
+### Making a Progressive Web App
 
-✅ Dark/Cinematic Design
-✅ Fully Responsive
-✅ Video Showcase with Modal Player
-✅ Project Filtering
-✅ Smooth Animations
-✅ Contact Form
-✅ SEO Optimized
-✅ Production Ready
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
----
+### Advanced Configuration
 
-## 💻 Tech Stack
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-- React 19
-- TailwindCSS
-- Shadcn/ui Components
-- Lucide Icons
-- Inter Font
+### Deployment
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-## 📚 Documentation
+### `npm run build` fails to minify
 
-1. **Start Here:** `DEPLOYMENT_GUIDE.md`
-2. **Customize:** `CONTENT_CHECKLIST.md`
-3. **Quick Tips:** `QUICK_EDIT_GUIDE.js`
-4. **Full Docs:** `PORTFOLIO_README.md`
-
----
-
-## 🆘 Need Help?
-
-### Common Questions:
-
-**Q: Where do I add my videos?**
-A: Edit `frontend/src/portfolio-content.js` → `projects` array
-
-**Q: How do I change colors?**
-A: Search for `#00d9ff` in component files and replace
-
-**Q: How do I get video embed URLs?**
-A: YouTube: Share → Embed → Copy URL
-   Format: `https://www.youtube.com/embed/VIDEO_ID`
-
-**Q: Where do I host images?**
-A: Use Imgur, Cloudinary, or your own hosting
-
-**Q: Do I need to build the project?**
-A: No! Vercel/Netlify will build it for you
-
----
-
-## 🚀 Deployment Platforms
-
-### Vercel (Recommended)
-- ✅ Free hosting
-- ✅ Auto SSL
-- ✅ Auto deployments
-- ✅ Best for React
-
-### Netlify
-- ✅ Free hosting
-- ✅ Auto SSL
-- ✅ Drag & drop deploy
-- ✅ Great for static sites
-
-Both are excellent choices!
-
----
-
-## ⚠️ Important Notes
-
-1. **Node Version:** 18.x or higher required
-2. **Package Manager:** Use Yarn (not npm)
-3. **Content File:** Only edit `portfolio-content.js`
-4. **Don't Modify:** `vercel.json`, `netlify.toml`
-5. **Test First:** Run locally before deploying
-
----
-
-## 📞 Support Resources
-
-- Vercel Docs: [vercel.com/docs](https://vercel.com/docs)
-- Netlify Docs: [docs.netlify.com](https://docs.netlify.com)
-- React Docs: [react.dev](https://react.dev)
-
----
-
-## 🎯 Next Steps
-
-1. [ ] Read `DEPLOYMENT_GUIDE.md`
-2. [ ] Edit `frontend/src/portfolio-content.js`
-3. [ ] Test locally (optional)
-4. [ ] Deploy to Vercel or Netlify
-5. [ ] Share your portfolio! 🎉
-
----
-
-**Your portfolio is ready to go live in minutes!**
-
-📖 Start with: `DEPLOYMENT_GUIDE.md`
-✏️ Customize: `frontend/src/portfolio-content.js`
-🚀 Deploy: Vercel or Netlify
-
----
-
-**Built for Sufiyan FX**
-*Video Editor & Content Creator*
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
